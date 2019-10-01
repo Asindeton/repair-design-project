@@ -1,0 +1,95 @@
+$bgcolor_black: #131313;
+$bgcolor_white: #fff;
+$font_color_gold: #E3B873;
+$font_color_white: #FFFFFF;
+$font_color_black: #363636;
+
+.wrapper_desktop {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 838px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    background-color: $bgcolor_black;
+    height: 83px;
+}
+
+.company_name {
+    font-family: "FuturaDemiC";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $font_color_gold ;
+}
+
+.phone_number {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $font_color_gold;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    height: 83px;
+    align-items: center;
+}
+
+ul.nav_bar {
+    justify-content: space-between;
+    width: 581px;
+}
+
+li {
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px;
+    color: $font_color_white ;
+    
+}
+
+li.home {
+    color: $font_color_gold ;
+}
+
+.header_test {
+    align-items: stretch;
+}
+
+.main_header_content {
+    height: 707px;
+    width: 94%;
+    background-image: url("./assets/images/Desktop_version/header/image\ 4.3.png");
+    
+    
+}
+
+.sidebar {
+    background: $bgcolor_black ;
+    height: 707px;
+    width: 6%;
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 707px;
+    text-align: center;
+    color: $font_color_gold ;
+    align-items: center;
+}
+
+p {
+    transform: rotate(-270deg);
+}
