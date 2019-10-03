@@ -1,3 +1,7 @@
+body {
+  background-color: #131313;
+}
+
 .wrapper_desktop {
   width: 100%;
   max-width: 1400px;
@@ -182,6 +186,193 @@ li.home {
 }
 .main .main-examples__slider:hover {
   background: url("./assets/images/Desktop_version/main/image 2.png");
+}
+
+.video-box {
+  width: 100%;
+  height: 974px;
+  background-color: #131313;
+  position: relative;
+}
+.video-box .video-box__black-bg {
+  height: 266px;
+  background-color: #131313;
+}
+.video-box .video-box__white-bg {
+  height: 208px;
+  background-color: #fff;
+}
+.video-box .video {
+  position: absolute;
+  top: 40px;
+  left: 308px;
+}
+.video-box .video-box__description {
+  flex-direction: column;
+}
+.video-box .video-box__description-text {
+  height: 500px;
+  flex-direction: column;
+  background-color: #fff;
+}
+.video-box .video-box__description-text li {
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+}
+.video-box label {
+  font-family: FuturaBookC;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.section-types-of-repair {
+  width: 100%;
+  background-color: #fff;
+}
+.section-types-of-repair .section-types-of-repair__block {
+  flex-direction: column;
+  height: 893px;
+  justify-content: space-around;
+}
+.section-types-of-repair .section-types-of-repair__block .section-types-of-repair__text {
+  flex-direction: column;
+}
+.section-types-of-repair .section-types-of-repair__block .section-types-of-repair__text li {
+  color: #363636;
+}
+.section-types-of-repair .section-types-of-repair_serves .section-types-of-repair__colon1 {
+  height: 608px;
+  margin-right: 30px;
+  width: 392px;
+  color: #363636;
+  background: no-repeat url("./assets/images/Desktop_version/Types-of-repair/image1.png");
+}
+.section-types-of-repair .section-types-of-repair_serves .section-types-of-repair__colon2 {
+  height: 608px;
+  margin-right: 30px;
+  width: 392px;
+  color: #363636;
+  background: no-repeat url("./assets/images/Desktop_version/Types-of-repair/image 2.png");
+}
+.section-types-of-repair .section-types-of-repair_serves .section-types-of-repair__colon3 {
+  height: 608px;
+  margin-right: 30px;
+  width: 392px;
+  color: #363636;
+  background: no-repeat url("./assets/images/Desktop_version/Types-of-repair/image 3.png");
+}
+.section-types-of-repair .section-types-of-repair_serves ul {
+  list-style: inside;
+  flex-direction: column;
+  align-items: baseline;
+  color: #363636;
+}
+.section-types-of-repair .section-types-of-repair_serves li {
+  color: #363636;
+  position: relative;
+}
+.section-types-of-repair .section-types-of-repair_serves li div {
+  position: absolute;
+  display: inline-block;
+  background-color: #fff;
+  padding: 25px 50px 50px 34px;
+  position: absolute;
+  top: 294px;
+  left: 31px;
+}
+.section-types-of-repair .section-types-of-repair_serves li div h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+.section-types-of-repair .section-types-of-repair_serves li div li {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.section-types-of-repair .section-types-of-repair_serves li .button {
+  color: #fff;
+  background-color: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  width: 228px;
+  height: 54px;
+  position: absolute;
+  left: 31px;
+  top: 554px;
+  border: 0;
+}
+.section-types-of-repair .section-types-of-repair_serves li .button:hover {
+  border: 1.5px solid;
+}
+
+.section-request {
+  background-color: #fff;
+  width: 100%;
+  height: 935px;
+}
+.section-request .section-request__colum {
+  display: flex;
+  flex-direction: row;
+  height: 935px;
+}
+.section-request .section-request__colum .section-request__colum-services ul {
+  flex-direction: column;
+  height: 485px;
+  margin-bottom: 120px;
+}
+.section-request .section-request__colum .section-request__colum-services ul li {
+  color: #363636;
+  font-family: FuturaMediumC;
+  font-size: 18px;
+  line-height: 21px;
+}
+.section-request .section-request__colum .section-request__form ul {
+  flex-direction: column;
+  height: 632px;
+}
+.section-request .section-request__colum .section-request__form ul .section-request__form_form ul {
+  position: relative;
+  background: #131313;
+  flex-direction: column;
+  height: 509px;
+  width: 506px;
+}
+.section-request .section-request__colum .section-request__form ul .section-request__form_form ul .button {
+  position: absolute;
+  width: 213px;
+  height: 51px;
+  color: #FFFFFF;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  border: none;
+  left: 244px;
+  top: 431px;
+}
+.section-request .section-request__colum .section-request__form ul .section-request__form_form ul .button:hover {
+  border: 2px solid;
+}
+.section-request .section-request__colum .section-request__form ul .section-request__form_image ul {
+  flex-direction: row;
+  height: 72px;
+}
+.section-request .section-request__colum .section-request__form ul .section-request__form_image ul li {
+  color: #E3B873;
+  font-family: FuturaDemiC;
+  font-size: 20px;
+  line-height: 25px;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
 /*# sourceMappingURL=style.css.map */
