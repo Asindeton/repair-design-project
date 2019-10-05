@@ -3,6 +3,7 @@ $bgcolor_white: #fff;
 $font_color_gold: #E3B873;
 $font_color_white: #FFFFFF;
 $font_color_black: #363636;
+$font_color_preBlack: #959595;
 
 body{
     background-color: $bgcolor_black;
@@ -329,7 +330,7 @@ li.home {
                         font-family: FuturaBookC;
                         font-size: 15px;
                         line-height: 25px;
-                        color: #959595;
+                        color: $font_color_preBlack;
                     }
                 }
 
@@ -429,4 +430,359 @@ li.home {
     }
 
 
+}
+
+.section-wildest-fantasies {
+    width: 100%;
+    height: 864px;
+    background: url("./assets/images/Desktop_version/wildest-fantasies/image\ 5.1.png"), linear-gradient(121.24deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-blend-mode: multiply;
+    position: relative;
+    
+    .section-wildest-fantasies__colum-text {
+        width: 415px;
+        
+        ul{
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            height: 864px;
+
+            .section-wildest-fantasies__colum-text-head{
+                font-family: Yeseva One;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 27px;
+                line-height: 37px;
+                text-transform: uppercase;
+                color: $font_color_gold;
+                margin-bottom: 50px;
+                
+            }
+
+            .section-wildest-fantasies__colum-text-main {
+
+                    ul{
+                        height: 518px;
+                        justify-content: space-between;
+                    }
+
+                    li{
+                        font-family: Proxima Nova;
+                        font-size: 20px;
+                        line-height: 34px;
+                        
+                        &:hover{
+                            color:$font_color_gold;
+                            border-bottom: 0.67px solid $font_color_gold;
+                        }
+
+                    }
+
+            }
+        }
+    }
+
+    .section-wildest-fantasies__colum-img1 {
+        
+            ul{
+                justify-content: space-between;
+                flex-direction: column;
+                height: 947px;
+                
+            }
+    }
+
+    .section-wildest-fantasies__colum-img2 {
+        
+        ul{
+           
+            flex-direction: column;
+            height: 947px;
+            justify-content: space-between;
+        }
+    }        
+}
+
+.section-design-project {
+    height: 620px;
+    background:$font_color_white;
+
+    .section-design-project__row  {
+            flex-direction: column;
+            height: 1075px;
+            justify-content: space-around;
+
+                .section-design-project__row_header  {
+                    height: 66px;
+                    margin-top: 155px;
+
+                        ul{
+                            flex-direction: column;
+                        }
+
+                        li{
+                            font-family: Yeseva One;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 20px;
+                            line-height: 28px;
+                            text-align: center;
+                            text-transform: uppercase;
+                            color: $font_color_black;
+                        }
+                }
+                
+                .section-design-project__row_text {
+                            height: 57px;
+
+                           p{ 
+                            font-family: FuturaBookC;
+                            font-size: 20px;
+                            line-height: 27px;
+                            text-align: center;
+                            color: $font_color_black;
+                           }
+                }
+
+                .section-design-project__row_colum {
+                    height: 735px;
+                    width: 100%;
+
+
+                    .section-design-project__row_colum1 {
+                        background:$bgcolor_black;
+                        width: 392px;
+                        height: 735px;
+                        position: relative;
+
+                        div {
+                                width: 392px;
+                                height: 421px;
+                                background: no-repeat url("./assets/images/Desktop_version/design_project/image1.png"), rgba(0, 0, 0, 0.3);
+                                background-blend-mode: multiply;
+
+                        .section-design-project__row_colum1-text {
+                            background: $bgcolor_white;
+                            flex-direction: column;
+                            width: 296px;
+                            padding: 25px 0px 57px 34px;
+                            align-items: flex-start;
+                            position: absolute;
+                            top: 294px;
+                            left: 31px;
+
+                            h3{
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18px;
+                                line-height: 25px;
+                                color:$font_color_black;
+                            }
+                            
+                            ul {
+                                flex-direction: column;
+                                align-items: flex-start;
+                                list-style: inside;
+                            }
+
+                            li{
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 25px;
+                                color: $font_color_preBlack;
+                                
+                            }
+                        }
+                    }
+                    .button {
+                        color: $bgcolor_white;
+                        background-color: $font_color_gold;
+                        box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+                        font-family: Yeseva One;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 25px;
+                        text-transform: uppercase;
+                        width: 228px;
+                        height: 54px;
+                        position: absolute;
+                        left: 31px;
+                        top: 478px;
+                        border: 0;
+    
+                        &:hover{
+                            border: 1.5px solid;
+                        }
+                    }
+                    
+                }
+
+                     .section-design-project__row_colum2 {
+                    background:$bgcolor_black;
+                    width: 392px;
+                    height: 735px;
+                    position: relative;
+
+                    div {
+                            width: 392px;
+                            height: 421px;
+                            background: no-repeat url("./assets/images/Desktop_version/design_project/image\ 3.png"), rgba(0, 0, 0, 0.3);
+                            background-blend-mode: multiply;
+
+                    .section-design-project__row_colum2-text {
+                        background: $bgcolor_white;
+                        flex-direction: column;
+                        width: 296px;
+                        padding: 25px 0px 57px 34px;
+                        align-items: flex-start;
+                        position: absolute;
+                        top: 294px;
+                        left: 31px;
+
+                        h3{
+                            font-family: Yeseva One;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 25px;
+                            color:$font_color_black;
+                        }
+                        
+                        ul {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            list-style: inside;
+                        }
+
+                        li{
+                            font-family: FuturaBookC;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: $font_color_preBlack;
+                            
+                        }
+                    }
+                }
+                .button {
+                    color: $bgcolor_white;
+                    background-color: $font_color_gold;
+                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+                    font-family: Yeseva One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    width: 228px;
+                    height: 54px;
+                    position: absolute;
+                    left: 31px;
+                    top: 553px;
+                    border: 0;
+
+                    &:hover{
+                        border: 1.5px solid;
+                    }
+                }
+                
+                }
+
+                    .section-design-project__row_colum3 {
+                    background:$bgcolor_black;
+                    width: 392px;
+                    height: 735px;
+                    position: relative;
+
+                    div {
+                            width: 392px;
+                            height: 421px;
+                            background: no-repeat url("./assets/images/Desktop_version/design_project/image\ 3.1.png"), rgba(0, 0, 0, 0.3);
+                            background-blend-mode: multiply;
+
+                    .section-design-project__row_colum3-text {
+                        background: $bgcolor_white;
+                        flex-direction: column;
+                        width: 296px;
+                        padding: 25px 0px 57px 34px;
+                        align-items: flex-start;
+                        position: absolute;
+                        top: 294px;
+                        left: 31px;
+
+                        h3{
+                            font-family: Yeseva One;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 25px;
+                            color:$font_color_black;
+                        }
+                        
+                        ul {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            list-style: inside;
+                        }
+
+                        li{
+                            font-family: FuturaBookC;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: $font_color_preBlack;
+                            
+                        }
+                    }
+                }
+                .button {
+                    color: $bgcolor_white;
+                    background-color: $font_color_gold;
+                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+                    font-family: Yeseva One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    width: 228px;
+                    height: 54px;
+                    position: absolute;
+                    left: 31px;
+                    top: 681px;
+                    border: 0;
+
+                    &:hover{
+                        border: 1.5px solid;
+                    }
+                }
+                
+                }
+        }
+    }
+}
+
+.section-steps-to-the-goal {
+    width: 100%;
+    height: 1615px;
+    background: $bgcolor_black;
+
+        ul{
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+   .section-steps-to-the-goal__colone1 {
+        
+        div{
+            
+            height: 1615px;
+        }
+
+        ul{
+            flex-direction: column;
+        }
+   }
 }

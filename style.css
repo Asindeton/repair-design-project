@@ -375,4 +375,295 @@ li.home {
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
+.section-wildest-fantasies {
+  width: 100%;
+  height: 864px;
+  background: url("./assets/images/Desktop_version/wildest-fantasies/image 5.1.png"), linear-gradient(121.24deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+  background-blend-mode: multiply;
+  position: relative;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-text {
+  width: 415px;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-text ul {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 864px;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-head {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-bottom: 50px;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main ul {
+  height: 518px;
+  justify-content: space-between;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main li {
+  font-family: Proxima Nova;
+  font-size: 20px;
+  line-height: 34px;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main li:hover {
+  color: #E3B873;
+  border-bottom: 0.67px solid #E3B873;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-img1 ul {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 947px;
+}
+.section-wildest-fantasies .section-wildest-fantasies__colum-img2 ul {
+  flex-direction: column;
+  height: 947px;
+  justify-content: space-between;
+}
+
+.section-design-project {
+  height: 620px;
+  background: #FFFFFF;
+}
+.section-design-project .section-design-project__row {
+  flex-direction: column;
+  height: 1075px;
+  justify-content: space-around;
+}
+.section-design-project .section-design-project__row .section-design-project__row_header {
+  height: 66px;
+  margin-top: 155px;
+}
+.section-design-project .section-design-project__row .section-design-project__row_header ul {
+  flex-direction: column;
+}
+.section-design-project .section-design-project__row .section-design-project__row_header li {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #363636;
+}
+.section-design-project .section-design-project__row .section-design-project__row_text {
+  height: 57px;
+}
+.section-design-project .section-design-project__row .section-design-project__row_text p {
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum {
+  height: 735px;
+  width: 100%;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 {
+  background: #131313;
+  width: 392px;
+  height: 735px;
+  position: relative;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div {
+  width: 392px;
+  height: 421px;
+  background: no-repeat url("./assets/images/Desktop_version/design_project/image1.png"), rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text {
+  background: #fff;
+  flex-direction: column;
+  width: 296px;
+  padding: 25px 0px 57px 34px;
+  align-items: flex-start;
+  position: absolute;
+  top: 294px;
+  left: 31px;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text ul {
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: inside;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text li {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 .button {
+  color: #fff;
+  background-color: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  width: 228px;
+  height: 54px;
+  position: absolute;
+  left: 31px;
+  top: 478px;
+  border: 0;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 .button:hover {
+  border: 1.5px solid;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 {
+  background: #131313;
+  width: 392px;
+  height: 735px;
+  position: relative;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div {
+  width: 392px;
+  height: 421px;
+  background: no-repeat url("./assets/images/Desktop_version/design_project/image 3.png"), rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text {
+  background: #fff;
+  flex-direction: column;
+  width: 296px;
+  padding: 25px 0px 57px 34px;
+  align-items: flex-start;
+  position: absolute;
+  top: 294px;
+  left: 31px;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text ul {
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: inside;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text li {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 .button {
+  color: #fff;
+  background-color: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  width: 228px;
+  height: 54px;
+  position: absolute;
+  left: 31px;
+  top: 553px;
+  border: 0;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 .button:hover {
+  border: 1.5px solid;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 {
+  background: #131313;
+  width: 392px;
+  height: 735px;
+  position: relative;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div {
+  width: 392px;
+  height: 421px;
+  background: no-repeat url("./assets/images/Desktop_version/design_project/image 3.1.png"), rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text {
+  background: #fff;
+  flex-direction: column;
+  width: 296px;
+  padding: 25px 0px 57px 34px;
+  align-items: flex-start;
+  position: absolute;
+  top: 294px;
+  left: 31px;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text ul {
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: inside;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text li {
+  font-family: FuturaBookC;
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 .button {
+  color: #fff;
+  background-color: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  width: 228px;
+  height: 54px;
+  position: absolute;
+  left: 31px;
+  top: 681px;
+  border: 0;
+}
+.section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 .button:hover {
+  border: 1.5px solid;
+}
+
+.section-steps-to-the-goal {
+  width: 100%;
+  height: 1615px;
+  background: #131313;
+}
+.section-steps-to-the-goal ul {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.section-steps-to-the-goal .section-steps-to-the-goal__colone1 div {
+  height: 1615px;
+}
+.section-steps-to-the-goal .section-steps-to-the-goal__colone1 ul {
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
