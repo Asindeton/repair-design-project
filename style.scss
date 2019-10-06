@@ -768,6 +768,10 @@ li.home {
     height: 1615px;
     background: $bgcolor_black;
 
+        .section-steps-to-the-goal-main {
+            justify-content: space-around;
+        }
+
         ul{
             justify-content: center;
             flex-direction: row;
@@ -775,14 +779,340 @@ li.home {
         }
     
    .section-steps-to-the-goal__colone1 {
-        
-        div{
-            
-            height: 1615px;
+
+                ul{
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                .section-steps-to-the-goal__colone1_main {
+                    height: 1615px;
+
+                    .section-steps-to-the-goal__colone1_main_head{
+                        li{
+                            font-family: FuturaDemiC;
+                            font-size: 15px;
+                            line-height: 21px;
+                            text-transform: uppercase;
+                        }
+
+                        .section-steps-to-the-goal__colone1_main_head2 {
+                            flex-direction: row;
+                            justify-content: space-between;
+                            width: 302px;
+     
+                                 li{
+                                     font-family: Yeseva One;
+                                     font-style: normal;
+                                     font-weight: normal;
+                                     font-size: 27px;
+                                     line-height: 37px;
+                                     text-transform: uppercase;
+                                     color: $font_color_gold;
+     
+                                         img{
+                                             margin-bottom: 9px;
+                                         }
+                                 }
+                        }
+                     }
+                                                               
+                    }
+
+                .section-steps-to-the-goal__colone1_main_text{
+                      
+                        height: 323px;
+                        margin: 92px 0 61px 0;
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18px;
+                                line-height: 25px;
+                                text-transform: uppercase;
+                            }
+
+                            li:nth-child(2) {
+                                color: $font_color_gold;
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 23px;
+                                text-transform: uppercase;
+                            }
+
+                            li:nth-child(3){
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 25px;
+                            }
+
+
+                    }
+                
+                .section-steps-to-the-goal__colone1_main_slider{
+                    flex-direction: row;
+                    width: 290px;
+                    justify-content: space-between;
+                    align-items: center;
+                   
+                    li:nth-child(2),
+                    li:nth-child(3),
+                    li:nth-child(4),
+                    li:nth-child(5),
+                    li:nth-child(6),
+                    li:nth-child(7){
+                    
+                       width: 10px;
+                       height: 10px;
+                       background: rgba(255, 255, 255, 0.3);
+                       border-radius: 30px;
+                     
+                            &:hover{
+                                background: $bgcolor_white;
+                            }
+                    }
+
+                    li:nth-child(1),  li:nth-child(8){
+                        width: 41px;
+                        
+
+                        img{
+                            margin-top: 5px;
+                        }
+                    }
+
+                }
+
+                
+   }
+
+   .section-steps-to-the-goal__colone2{
+    height: 599px;
+       ul {
+         flex-direction: column;
+         justify-content: space-between;
+       }
+
+        .section-steps-to-the-goal__colone2-main {
+        height: 686px;
         }
 
-        ul{
-            flex-direction: column;
-        }
+       .section-steps-to-the-goal__colone2_text {
+        width: 770px;
+        margin-top: 87px;
+
+        
+            ul{
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            .section-steps-to-the-goal__colone2_text_colone1 {
+                
+                ul {
+                   flex-direction: column;
+                   height:178px ;
+                }
+
+                .section-steps-to-the-goal__colone2_text_colone1-elem1{
+                    ul{
+                        height:71px ;
+                        opacity: .3;
+                        justify-content: space-around;
+
+                            &:hover{
+                                opacity: 1;
+                            }
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid $font_color_gold;
+                            }
+                    
+                            li:nth-child(2) {
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+
+                    
+                    }
+                }
+                .section-steps-to-the-goal__colone2_text_colone1-elem2{
+                    ul{
+                        height:71px ;
+                        opacity: .3;
+                        justify-content: space-around;
+
+                            &:hover{
+                                opacity: 1;
+                            }
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid $font_color_gold;
+                            }
+                    
+                            li:nth-child(2) {
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+
+                    
+                    }
+                }
+
+            }
+
+            .section-steps-to-the-goal__colone2_text_colone2 {
+                ul {
+                    flex-direction: column;
+                    height:178px ;
+                }
+
+                .section-steps-to-the-goal__colone2_text_colone2-elem1{
+                    ul{
+                        height:71px ;
+                        opacity: .3;
+                        justify-content: space-around;
+
+                            &:hover{
+                                opacity: 1;
+                            }
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid $font_color_gold;
+                            }
+                    
+                            li:nth-child(2) {
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+
+                    
+                    }
+                }
+
+                .section-steps-to-the-goal__colone2_text_colone2-elem2{
+                    ul{
+                        height:71px ;
+                        opacity: .3;
+                        justify-content: space-around;
+
+                            &:hover{
+                                opacity: 1;
+                            }
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid $font_color_gold;
+                            }
+                    
+                            li:nth-child(2) {
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+
+                    
+                    }
+                }
+            }
+
+            .section-steps-to-the-goal__colone2_text_colone3 {
+                ul {
+                    flex-direction: column;
+                    height:178px ;
+                }
+
+                .section-steps-to-the-goal__colone2_text_colone3-elem1{
+                    ul{
+                        height:71px ;
+                        opacity: .3;
+                        justify-content: space-around;
+
+                            &:hover{
+                                opacity: 1;
+                            }
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid $font_color_gold;
+                            }
+                    
+                            li:nth-child(2) {
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+
+                    
+                    }
+                }
+                
+                .section-steps-to-the-goal__colone2_text_colone3-elem2{
+                    ul{
+                        height:71px ;
+                        opacity: .3;
+                        justify-content: space-around;
+
+                            &:hover{
+                                opacity: 1;
+                            }
+
+                            li:nth-child(1) {
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 21px;
+                                text-transform: uppercase;
+                                border-bottom: 1px solid $font_color_gold;
+                            }
+                    
+                            li:nth-child(2) {
+                                font-family: FuturaBookC;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+
+                    
+                    }
+                }
+            }
+
+       }
    }
 }
