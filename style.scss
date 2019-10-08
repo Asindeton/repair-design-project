@@ -1275,3 +1275,60 @@ li.home {
             }
     }
 }
+
+.section-our-clients {
+    width: 100%;
+    height: 833px;
+    background:$bgcolor_white;
+
+    ul{
+        flex-direction: column;
+    }
+
+    .section-our-clients__head{
+        height: 148px;
+
+        li:nth-child(1){
+            font-family: Yeseva One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color:$font_color_black;
+        }
+
+        li:nth-child(3){
+            font-family: FuturaBookC;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: $font_color_black;
+        }
+    }
+
+    .section-our-clients__content_wrapper{
+        height: 455px;
+        width: 100%;
+
+        li{
+            color: #000;
+        }
+
+        .section-our-clients__content {
+            flex-direction: row;
+            width: 100%;
+            height: 455px;
+            justify-content: space-around;
+
+            div {
+                position: relative;
+                width: 380px;
+            }
+        }
+        
+
+    }
+
+}

@@ -1046,4 +1046,50 @@ li.home {
   text-align: center;
 }
 
+.section-our-clients {
+  width: 100%;
+  height: 833px;
+  background: #fff;
+}
+.section-our-clients ul {
+  flex-direction: column;
+}
+.section-our-clients .section-our-clients__head {
+  height: 148px;
+}
+.section-our-clients .section-our-clients__head li:nth-child(1) {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #363636;
+}
+.section-our-clients .section-our-clients__head li:nth-child(3) {
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
+}
+.section-our-clients .section-our-clients__content_wrapper {
+  height: 455px;
+  width: 100%;
+}
+.section-our-clients .section-our-clients__content_wrapper li {
+  color: #000;
+}
+.section-our-clients .section-our-clients__content_wrapper .section-our-clients__content {
+  flex-direction: row;
+  width: 100%;
+  height: 455px;
+  justify-content: space-around;
+}
+.section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div {
+  position: relative;
+  width: 380px;
+}
+
 /*# sourceMappingURL=style.css.map */
