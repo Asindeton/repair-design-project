@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     position: relative;
     flex-direction:column;
+    
 }
 
 .header {
@@ -765,7 +766,7 @@ li.home {
 
 .section-steps-to-the-goal {
     width: 100%;
-    height: 1615px;
+    height: 1179px;
     background: $bgcolor_black;
 
         .section-steps-to-the-goal-main {
@@ -1115,4 +1116,162 @@ li.home {
 
        }
    }
+}
+
+.section-our-team {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+
+    .section-our-team__black-bg {
+        height: 520px;
+        background-color:$bgcolor_black;
+    }
+
+    .section-our-team__white-bg {
+        height: 480px;
+        background-color:$bgcolor_white;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    .section-our-team__content {
+        position: absolute;
+        height: 900px;
+        background-color:transparent;
+        top: 50px;
+        width: 100%;
+        left: 50%;
+        margin-left: -50%;
+        margin-top: 50px;
+
+            .section-our-team__content-main-head {
+                height: 148px;
+
+                    li:nth-child(1) {
+                        font-family: Yeseva One;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 28px;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+
+                    li:nth-child(3) {
+                        font-family: FuturaBookC;
+                        font-size: 20px;
+                        line-height: 27px;
+                        text-align: center;
+
+                    }
+            }
+            
+            .section-our-team__content-main-team-wrapper {
+                width: 100%;
+                margin: 50px 0px;
+                .section-our-team__content-main-team {
+                    flex-direction: row;
+                    width: 100%;
+                    height: 450px;
+                    justify-content: space-around;
+
+                        div{
+                            width: 307px;
+                            height: 450px;
+                            position: relative;
+
+                            .icon{
+                                position: absolute;
+                                background:$font_color_gold;
+                                padding: 12px;
+                                top: 0px;
+                                left: 0px;
+                                z-index: 10;
+                            }
+
+                            .main-photo{
+                                position: absolute;
+                                top: 35px;
+                                left: 35px;
+                            }
+
+                            .section-our-team__content-main-team-inform {
+                                position: absolute;
+                                background:$bgcolor_white;
+                                width: 235px;
+                                height: 93px;
+                                z-index: 15;
+                                left: 56px;
+                                top: 312px;
+
+                                    .section-our-team__content-main-team-inform-content{
+                                        height: 93px;
+                                        justify-content: center;
+                                    }
+                                    
+                                    li:nth-child(1) {
+                                        font-family: Yeseva One;
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        font-size: 21px;
+                                        line-height: 25px;
+                                        text-align: center;
+                                        color: $bgcolor_black;
+                                        margin-bottom: 9px;
+                                    }
+
+                                    li:nth-child(2) {
+                                        font-family: FuturaBookC;
+                                        font-size: 18px;
+                                        line-height: 26px;
+                                        text-align: center;
+                                        color:$font_color_preBlack;
+                                    }
+
+                            }
+
+                            .section-our-team__content-main-team-inform-work-experience {
+                                position: absolute;
+                                width: 235px;
+                                height: 44px;
+                                background:$font_color_gold;
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 13px;
+                                line-height:  44px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                z-index: 20;
+                                left: 56px;
+                                top: 405px;
+
+                            }
+
+                        }
+                }
+
+            }
+
+            .section-our-team__content-main-description {
+                height: 140px;
+
+                    li:nth-child(1){
+                        width: 55px;
+                        border-top: 2px solid $font_color_gold;
+                    }
+
+                    li:nth-child(2){
+                        color:$bgcolor_black;     
+                        font-family: FuturaBookC;
+                        font-size: 20px;
+                        line-height: 34px;
+                        text-align: center;
+                        
+                    }
+            }
+    }
 }

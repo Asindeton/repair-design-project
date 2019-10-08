@@ -651,7 +651,7 @@ li.home {
 
 .section-steps-to-the-goal {
   width: 100%;
-  height: 1615px;
+  height: 1179px;
   background: #131313;
 }
 .section-steps-to-the-goal .section-steps-to-the-goal-main {
@@ -911,6 +911,139 @@ li.home {
   font-family: FuturaBookC;
   font-size: 15px;
   line-height: 18px;
+}
+
+.section-our-team {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+.section-our-team .section-our-team__black-bg {
+  height: 520px;
+  background-color: #131313;
+}
+.section-our-team .section-our-team__white-bg {
+  height: 480px;
+  background-color: #fff;
+}
+.section-our-team ul {
+  flex-direction: column;
+}
+.section-our-team .section-our-team__content {
+  position: absolute;
+  height: 900px;
+  background-color: transparent;
+  top: 50px;
+  width: 100%;
+  left: 50%;
+  margin-left: -50%;
+  margin-top: 50px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-head {
+  height: 148px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-head li:nth-child(1) {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-head li:nth-child(3) {
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper {
+  width: 100%;
+  margin: 50px 0px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team {
+  flex-direction: row;
+  width: 100%;
+  height: 450px;
+  justify-content: space-around;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div {
+  width: 307px;
+  height: 450px;
+  position: relative;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .icon {
+  position: absolute;
+  background: #E3B873;
+  padding: 12px;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .main-photo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform {
+  position: absolute;
+  background: #fff;
+  width: 235px;
+  height: 93px;
+  z-index: 15;
+  left: 56px;
+  top: 312px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform .section-our-team__content-main-team-inform-content {
+  height: 93px;
+  justify-content: center;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform li:nth-child(1) {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 9px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform li:nth-child(2) {
+  font-family: FuturaBookC;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #959595;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform-work-experience {
+  position: absolute;
+  width: 235px;
+  height: 44px;
+  background: #E3B873;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 20;
+  left: 56px;
+  top: 405px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-description {
+  height: 140px;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-description li:nth-child(1) {
+  width: 55px;
+  border-top: 2px solid #E3B873;
+}
+.section-our-team .section-our-team__content .section-our-team__content-main-description li:nth-child(2) {
+  color: #131313;
+  font-family: FuturaBookC;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
