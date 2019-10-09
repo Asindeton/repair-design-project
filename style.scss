@@ -1325,10 +1325,263 @@ li.home {
             div {
                 position: relative;
                 width: 380px;
+                height: 455px;
+
+                .section-our-clients__content-column{
+                    width: 380px;
+                    height: 455px;
+
+                    .section-our-clients__content-column-photo img{
+                        position: absolute;
+                        top:24px;
+                        left: 20px;
+                        border-radius: 50%;
+                    }
+                    
+                    .section-our-clients__content-column-name {
+                        position: absolute;
+                        top:41px;
+                        left: 120px;
+                        font-family: Yeseva One;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 23px;
+                    }
+
+                    .section-our-clients__content-column-text{
+                        position: absolute;
+                        top: 120px;
+                        left: 20px;
+                        font-family: FuturaBookC;
+                        font-size: 15px;
+                        line-height: 180%;
+                        color: $font_color_preBlack;
+                    }
+
+                    .section-our-clients__content-column-description{
+                        bottom: 0;
+                        left: 0;
+                        position: absolute;
+                        width: 294px;
+                        height: 54px;
+                        background:$font_color_gold;
+                        flex-direction: row;
+
+                        .section-our-clients__content-column-description-area{
+                            flex-direction: row;
+                            width: 137px;
+                            height: 54px;
+                            border-right: 1px solid $bgcolor_white;
+
+                            li + li{
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 17px;
+                                line-height: 24px;
+                                text-transform: uppercase;
+                                color: $font_color_white;
+                            }
+
+                            
+                        }
+
+                        .section-our-clients__content-column-description-days{
+                            flex-direction: row;
+                            width: 137px;
+                            height: 54px;
+
+                            li + li{
+                                font-family: Yeseva One;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 17px;
+                                line-height: 24px;
+                                text-transform: uppercase;
+                                color: $font_color_white;
+                            }
+
+                        }
+
+                    }
+                }
+
+
             }
         }
         
 
     }
 
+}
+
+.section-question {
+    position: relative;
+    width: 100%;
+    height: 223px;
+    background:$bgcolor_white;
+    z-index: 100;
+
+        .section-question__content {
+            position: absolute;
+            width: 890px;
+            left: 50%;
+            margin-left: -445px;
+            height: 455px;
+            background:$bgcolor_black;
+
+            .section-question__content-wrapper {
+                height: 455px;
+                width: 100%;
+                flex-direction: column;
+
+                .section-question__content-head{
+                    color:$font_color_white;
+                    font-family: Yeseva One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 28px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                .section-question__content-main {
+                    flex-direction: column;
+
+                    .section-question__content-main-personal-data {
+                        flex-direction: row;
+                    }
+                }
+
+                
+            }
+        }
+}
+
+.section-map {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background: no-repeat url("./assets/images/Desktop_version/map/image\ 7.2.png"), linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    background-blend-mode: multiply;
+
+        .section-map-content-wrapper {
+            margin-top: 220px;
+            height: 731px;
+            width: 100%;
+
+            .section-map-content {
+                width: 100%;
+                height: 613px;
+                flex-direction: column;
+                margin-top: 291px;
+                justify-content: space-between;
+
+                    .section-map-content-location {
+                        color:$font_color_gold;
+                        font-family: Yeseva One;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 28px;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+                    
+                    .section-map-content-icon-area{
+                        width: 71px;
+                        justify-content: space-between;
+                        align-items: center;
+
+                            .section-map-content-icon {
+                                width: 28px;
+                                height: 28px;
+                                background:$font_color_gold;
+                                border-radius: 50%;
+
+                                .instagram_icon{
+
+                                    margin-top: 7px;
+                                    margin-left: 7px;
+                                }
+
+                                .mail{
+
+                                    margin-top: 7px;
+                                    margin-left: 2px;
+                                }
+
+                                
+                            }
+                    }
+
+                 }
+
+
+            }
+            
+        
+}
+
+footer {
+
+    .footer-content{
+    width: 100%;
+    height: 133px;
+    align-items: center;
+
+        .footer-content__logo{
+            font-family: FuturaDemiC;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: $font_color_gold;
+        }
+
+        .footer-content__nav{
+            width: 580px;
+            justify-content: space-between;
+            
+            li{
+                font-family: FuturaBookC;
+                font-size: 14px;
+                line-height: 16px;
+            }
+
+            li:nth-child(1){
+                color:$font_color_gold;
+            }
+        }
+
+        .footer-content__phone{
+            font-family: FuturaDemiC;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: right;
+            text-decoration-line: underline;
+            color: $font_color_gold;
+        }
+
+        .footer-content__call-button input {
+            width: 161px;
+            height: 37px;
+            background: $font_color_gold;
+            color: $font_color_white;
+            font-family: FuturaDemiC;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            border: 0;
+
+                &:hover{
+                    border: 1px solid wheat;
+                }
+
+
+        }
+
+    }
 }
