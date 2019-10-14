@@ -5,9 +5,29 @@ $font_color_white: #FFFFFF;
 $font_color_black: #363636;
 $font_color_preBlack: #959595;
 
+@font-face {
+    font-family:"Yeseva One";
+    src: url("./assets/fonts/Yeseva_One/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family:"FuturaDemiC";
+    src: url("./assets/fonts/FuturaDemiC_Regular/FuturaDemiC\ Regular.otf");
+}
+
+@font-face {
+    font-family:"FuturaBookC";
+    src: url("./assets/fonts/FuturaBookC_Regular/FuturaBookC\ Regular.otf");
+}
+
+@font-face {
+    font-family:"Proxima Nova";
+    src: url("./assets/fonts/Proxima_Nova/12093.ttf");
+}
+
 @media screen and (min-width:1240px){
     body{
-        background-color: $bgcolor_black;
+        background:#252525;
     }
     .wrapper-mobile{
         display: none;
@@ -44,7 +64,7 @@ $font_color_preBlack: #959595;
         }
         
         .phone_number {
-            font-family: FuturaDemiC;
+            font-family: "FuturaDemiC";
             font-size: 13px;
             line-height: 15px;
             text-align: center;
@@ -65,7 +85,7 @@ $font_color_preBlack: #959595;
         }
         
         li {
-            font-family: FuturaBookC;
+            font-family: "FuturaBookC";
             font-size: 14px;
             line-height: 16px;
             color: $font_color_white ;
@@ -92,7 +112,7 @@ $font_color_preBlack: #959595;
             background: $bgcolor_black ;
             height: 707px;
             width: 6%;
-            font-family: FuturaDemiC;
+            font-family: "FuturaDemiC";
             font-size: 14px;
             line-height: 707px;
             text-align: center;
@@ -110,7 +130,7 @@ $font_color_preBlack: #959595;
         }
         
         .header_test h2{
-            font-family: Yeseva One;
+            font-family: "Yeseva One";
             font-style: normal;
             font-weight: normal;
             font-size: 40px;
@@ -119,7 +139,7 @@ $font_color_preBlack: #959595;
         }
         
         .header_test .content {
-            font-family: FuturaBookC;
+            font-family: "FuturaBookC";
             font-size: 22px;
             line-height: 30px;
         
@@ -149,7 +169,7 @@ $font_color_preBlack: #959595;
             position: absolute;
             top: 741px;
             justify-content: space-evenly;
-            font-family: Yeseva One;
+            font-family: "Yeseva One";
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
@@ -179,7 +199,7 @@ $font_color_preBlack: #959595;
             
                 h2 {
                     
-                    font-family: Yeseva One;
+                    font-family: "Yeseva One";
                     font-style: normal;
                     font-weight: normal;
                     font-size: 27px;
@@ -190,7 +210,7 @@ $font_color_preBlack: #959595;
                 }
         
                 .main-examples__content-description {
-                    font-family: FuturaBookC;
+                    font-family: "FuturaBookC";
                     font-size: 18px;
                     line-height: 29px;
                     color:$font_color_white;
@@ -243,7 +263,7 @@ $font_color_preBlack: #959595;
                     background-color: $bgcolor_white;
         
                     li {
-                        font-family: FuturaBookC;
+                        font-family: "FuturaBookC";
                         font-size: 20px;
                         line-height: 34px;
                         text-align: center;
@@ -252,7 +272,7 @@ $font_color_preBlack: #959595;
                 }
                 
                 label {
-                    font-family: FuturaBookC;
+                    font-family: "FuturaBookC";
                     font-size: 16px;
                     line-height: 22px;
                 }
@@ -324,7 +344,7 @@ $font_color_preBlack: #959595;
                             left: 31px;
                             
                             h3{
-                                font-family: Yeseva One;
+                                font-family: "Yeseva One";
                                 font-style: normal;
                                 font-weight: normal;
                                 font-size: 18px;
@@ -332,7 +352,7 @@ $font_color_preBlack: #959595;
                             }
         
                             li{
-                                font-family: FuturaBookC;
+                                font-family: "FuturaBookC";
                                 font-size: 15px;
                                 line-height: 25px;
                                 color: $font_color_preBlack;
@@ -343,7 +363,7 @@ $font_color_preBlack: #959595;
                             color: $bgcolor_white;
                             background-color: $font_color_gold;
                             box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 18px;
@@ -424,7 +444,7 @@ $font_color_preBlack: #959595;
         
                             li {
                                 color:$font_color_gold;
-                                font-family: FuturaDemiC;
+                                font-family: "FuturaDemiC";
                                 font-size: 20px;
                                 line-height: 25px;
                                 text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
@@ -454,7 +474,7 @@ $font_color_preBlack: #959595;
                     height: 864px;
         
                     .section-wildest-fantasies__colum-text-head{
-                        font-family: Yeseva One;
+                        font-family: "Yeseva One";
                         font-style: normal;
                         font-weight: normal;
                         font-size: 27px;
@@ -473,7 +493,7 @@ $font_color_preBlack: #959595;
                             }
         
                             li{
-                                font-family: Proxima Nova;
+                                font-family:"Proxima Nova";
                                 font-size: 20px;
                                 line-height: 34px;
                                 
@@ -527,7 +547,7 @@ $font_color_preBlack: #959595;
                                 }
         
                                 li{
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 20px;
@@ -542,7 +562,7 @@ $font_color_preBlack: #959595;
                                     height: 57px;
         
                                    p{ 
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 20px;
                                     line-height: 27px;
                                     text-align: center;
@@ -578,7 +598,7 @@ $font_color_preBlack: #959595;
                                     left: 31px;
         
                                     h3{
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 18px;
@@ -593,7 +613,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li{
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 25px;
                                         color: $font_color_preBlack;
@@ -605,7 +625,7 @@ $font_color_preBlack: #959595;
                                 color: $bgcolor_white;
                                 background-color: $font_color_gold;
                                 box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-                                font-family: Yeseva One;
+                                font-family: "Yeseva One";
                                 font-style: normal;
                                 font-weight: normal;
                                 font-size: 18px;
@@ -648,7 +668,7 @@ $font_color_preBlack: #959595;
                                 left: 31px;
         
                                 h3{
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 18px;
@@ -663,7 +683,7 @@ $font_color_preBlack: #959595;
                                 }
         
                                 li{
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 15px;
                                     line-height: 25px;
                                     color: $font_color_preBlack;
@@ -675,7 +695,7 @@ $font_color_preBlack: #959595;
                             color: $bgcolor_white;
                             background-color: $font_color_gold;
                             box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 18px;
@@ -718,7 +738,7 @@ $font_color_preBlack: #959595;
                                 left: 31px;
         
                                 h3{
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 18px;
@@ -733,7 +753,7 @@ $font_color_preBlack: #959595;
                                 }
         
                                 li{
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 15px;
                                     line-height: 25px;
                                     color: $font_color_preBlack;
@@ -745,7 +765,7 @@ $font_color_preBlack: #959595;
                             color: $bgcolor_white;
                             background-color: $font_color_gold;
                             box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 18px;
@@ -795,7 +815,7 @@ $font_color_preBlack: #959595;
         
                             .section-steps-to-the-goal__colone1_main_head{
                                 li{
-                                    font-family: FuturaDemiC;
+                                    font-family: "FuturaDemiC";
                                     font-size: 15px;
                                     line-height: 21px;
                                     text-transform: uppercase;
@@ -807,7 +827,7 @@ $font_color_preBlack: #959595;
                                     width: 302px;
              
                                          li{
-                                             font-family: Yeseva One;
+                                             font-family: "Yeseva One";
                                              font-style: normal;
                                              font-weight: normal;
                                              font-size: 27px;
@@ -830,7 +850,7 @@ $font_color_preBlack: #959595;
                                 margin: 92px 0 61px 0;
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 18px;
@@ -840,7 +860,7 @@ $font_color_preBlack: #959595;
         
                                     li:nth-child(2) {
                                         color: $font_color_gold;
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -849,7 +869,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(3){
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 25px;
                                     }
@@ -934,7 +954,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -944,7 +964,7 @@ $font_color_preBlack: #959595;
                                     }
                             
                                     li:nth-child(2) {
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 18px;
                                     }
@@ -963,7 +983,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -973,7 +993,7 @@ $font_color_preBlack: #959595;
                                     }
                             
                                     li:nth-child(2) {
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 18px;
                                     }
@@ -1001,7 +1021,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -1011,7 +1031,7 @@ $font_color_preBlack: #959595;
                                     }
                             
                                     li:nth-child(2) {
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 18px;
                                     }
@@ -1031,7 +1051,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -1041,7 +1061,7 @@ $font_color_preBlack: #959595;
                                     }
                             
                                     li:nth-child(2) {
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 18px;
                                     }
@@ -1068,7 +1088,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -1078,7 +1098,7 @@ $font_color_preBlack: #959595;
                                     }
                             
                                     li:nth-child(2) {
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 18px;
                                     }
@@ -1098,7 +1118,7 @@ $font_color_preBlack: #959595;
                                     }
         
                                     li:nth-child(1) {
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -1108,7 +1128,7 @@ $font_color_preBlack: #959595;
                                     }
                             
                                     li:nth-child(2) {
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 15px;
                                         line-height: 18px;
                                     }
@@ -1155,7 +1175,7 @@ $font_color_preBlack: #959595;
                         height: 148px;
         
                             li:nth-child(1) {
-                                font-family: Yeseva One;
+                                font-family: "Yeseva One";
                                 font-style: normal;
                                 font-weight: normal;
                                 font-size: 20px;
@@ -1165,7 +1185,7 @@ $font_color_preBlack: #959595;
                             }
         
                             li:nth-child(3) {
-                                font-family: FuturaBookC;
+                                font-family: "FuturaBookC";
                                 font-size: 20px;
                                 line-height: 27px;
                                 text-align: center;
@@ -1217,7 +1237,7 @@ $font_color_preBlack: #959595;
                                             }
                                             
                                             li:nth-child(1) {
-                                                font-family: Yeseva One;
+                                                font-family: "Yeseva One";
                                                 font-style: normal;
                                                 font-weight: normal;
                                                 font-size: 21px;
@@ -1228,7 +1248,7 @@ $font_color_preBlack: #959595;
                                             }
         
                                             li:nth-child(2) {
-                                                font-family: FuturaBookC;
+                                                font-family: "FuturaBookC";
                                                 font-size: 18px;
                                                 line-height: 26px;
                                                 text-align: center;
@@ -1242,7 +1262,7 @@ $font_color_preBlack: #959595;
                                         width: 235px;
                                         height: 44px;
                                         background:$font_color_gold;
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 13px;
@@ -1270,7 +1290,7 @@ $font_color_preBlack: #959595;
         
                             li:nth-child(2){
                                 color:$bgcolor_black;     
-                                font-family: FuturaBookC;
+                                font-family: "FuturaBookC";
                                 font-size: 20px;
                                 line-height: 34px;
                                 text-align: center;
@@ -1293,7 +1313,7 @@ $font_color_preBlack: #959595;
                 height: 148px;
         
                 li:nth-child(1){
-                    font-family: Yeseva One;
+                    font-family: "Yeseva One";
                     font-style: normal;
                     font-weight: normal;
                     font-size: 20px;
@@ -1304,7 +1324,7 @@ $font_color_preBlack: #959595;
                 }
         
                 li:nth-child(3){
-                    font-family: FuturaBookC;
+                    font-family: "FuturaBookC";
                     font-size: 20px;
                     line-height: 27px;
                     text-align: center;
@@ -1346,7 +1366,7 @@ $font_color_preBlack: #959595;
                                 position: absolute;
                                 top:41px;
                                 left: 120px;
-                                font-family: Yeseva One;
+                                font-family: "Yeseva One";
                                 font-style: normal;
                                 font-weight: normal;
                                 font-size: 18px;
@@ -1357,7 +1377,7 @@ $font_color_preBlack: #959595;
                                 position: absolute;
                                 top: 120px;
                                 left: 20px;
-                                font-family: FuturaBookC;
+                                font-family: "FuturaBookC";
                                 font-size: 15px;
                                 line-height: 180%;
                                 color: $font_color_preBlack;
@@ -1379,7 +1399,7 @@ $font_color_preBlack: #959595;
                                     border-right: 1px solid $bgcolor_white;
         
                                     li + li{
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 17px;
@@ -1397,7 +1417,7 @@ $font_color_preBlack: #959595;
                                     height: 54px;
         
                                     li + li{
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 17px;
@@ -1442,7 +1462,7 @@ $font_color_preBlack: #959595;
         
                         .section-question__content-head{
                             color:$font_color_white;
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 20px;
@@ -1485,7 +1505,7 @@ $font_color_preBlack: #959595;
         
                             .section-map-content-location {
                                 color:$font_color_gold;
-                                font-family: Yeseva One;
+                                font-family: "Yeseva One";
                                 font-style: normal;
                                 font-weight: normal;
                                 font-size: 20px;
@@ -1538,7 +1558,7 @@ $font_color_preBlack: #959595;
             align-items: center;
         
                 .footer-content__logo{
-                    font-family: FuturaDemiC;
+                    font-family: "FuturaDemiC";
                     font-size: 14px;
                     line-height: 16px;
                     text-transform: uppercase;
@@ -1550,7 +1570,7 @@ $font_color_preBlack: #959595;
                     justify-content: space-between;
                     
                     li{
-                        font-family: FuturaBookC;
+                        font-family: "FuturaBookC";
                         font-size: 14px;
                         line-height: 16px;
                     }
@@ -1561,7 +1581,7 @@ $font_color_preBlack: #959595;
                 }
         
                 .footer-content__phone{
-                    font-family: FuturaDemiC;
+                    font-family: "FuturaDemiC";
                     font-size: 14px;
                     line-height: 16px;
                     text-align: right;
@@ -1574,7 +1594,7 @@ $font_color_preBlack: #959595;
                     height: 37px;
                     background: $font_color_gold;
                     color: $font_color_white;
-                    font-family: FuturaDemiC;
+                    font-family: "FuturaDemiC";
                     font-size: 13px;
                     line-height: 15px;
                     text-align: center;
@@ -1598,7 +1618,7 @@ $font_color_preBlack: #959595;
 @media screen and (max-width:1240px){
     
     body{
-        background:$bgcolor_black;
+        background:#252525;
     }
     
     .wrapper_desktop {
@@ -1609,6 +1629,7 @@ $font_color_preBlack: #959595;
         width: 100%;
         margin: 0 auto;
         max-width: 375px;
+        background: $bgcolor_black;
 
         ul {
             display: flex;
@@ -1630,7 +1651,7 @@ $font_color_preBlack: #959595;
                 }
 
                 h1 {
-                    font-family: FuturaDemiC;
+                    font-family: "FuturaDemiC";
                     font-size: 12px;
                     line-height: 14px;
                     text-transform: uppercase;
@@ -1639,7 +1660,7 @@ $font_color_preBlack: #959595;
                 }
 
                 .tel-numb__header{
-                    font-family: FuturaDemiC;
+                    font-family: "FuturaDemiC";
                     font-size: 12px;
                     line-height: 14px;
                     text-align: right;
@@ -1663,7 +1684,7 @@ $font_color_preBlack: #959595;
 
                 h2{
                     color: $font_color_white;
-                    font-family: Yeseva One;
+                    font-family: "Yeseva One";
                     font-style: normal;
                     font-weight: normal;
                     font-size: 23px;
@@ -1678,7 +1699,7 @@ $font_color_preBlack: #959595;
 
                 .mobile-header__text{
                     color: $font_color_white;
-                    font-family: FuturaBookC;
+                    font-family: "FuturaBookC";
                     font-size: 18px;
                     line-height: 135.84%;
                 }
@@ -1690,7 +1711,7 @@ $font_color_preBlack: #959595;
                 form{
 
                     border: none;
-                    font-family: FuturaDemiC;
+                    font-family: "FuturaDemiC";
                     font-size: 13px;
                     line-height: 15px;
                     text-align: center;
@@ -1734,7 +1755,7 @@ $font_color_preBlack: #959595;
 
                         h2 {
                             color: $font_color_gold;
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 22px;
@@ -1746,7 +1767,7 @@ $font_color_preBlack: #959595;
 
                         li:nth-child(2) {
                             color: $font_color_white;
-                            font-family: FuturaBookC;
+                            font-family: "FuturaBookC";
                             font-size: 14px;
                             line-height: 158.48%;
                             text-align: center;
@@ -1805,7 +1826,7 @@ $font_color_preBlack: #959595;
 
                                 li:nth-child(1){
                                     color: $font_color_gold;
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 14px;
@@ -1814,7 +1835,7 @@ $font_color_preBlack: #959595;
                                 }
 
                                 li:nth-child(2){                                                                        
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 14px;
                                     line-height: 135.84%;
                                 }
@@ -1827,7 +1848,7 @@ $font_color_preBlack: #959595;
 
                                 li:nth-child(1){
                                     color: $font_color_gold;
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 14px;
@@ -1836,7 +1857,7 @@ $font_color_preBlack: #959595;
                                 }
 
                                 li:nth-child(2){                                                                        
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 14px;
                                     line-height: 135.84%;
                                 }
@@ -1858,7 +1879,7 @@ $font_color_preBlack: #959595;
 
                                 li:nth-child(1){
                                     color: $font_color_gold;
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 14px;
@@ -1867,7 +1888,7 @@ $font_color_preBlack: #959595;
                                 }
 
                                 li:nth-child(2){                                                                        
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 14px;
                                     line-height: 135.84%;
                                 }
@@ -1881,7 +1902,7 @@ $font_color_preBlack: #959595;
                                 
                                 li:nth-child(1){
                                     color: $font_color_gold;
-                                    font-family: Yeseva One;
+                                    font-family: "Yeseva One";
                                     font-style: normal;
                                     font-weight: normal;
                                     font-size: 14px;
@@ -1890,7 +1911,7 @@ $font_color_preBlack: #959595;
                                 }
 
                                 li:nth-child(2){                                                                        
-                                    font-family: FuturaBookC;
+                                    font-family: "FuturaBookC";
                                     font-size: 14px;
                                     line-height: 135.84%;
                                 }
@@ -1911,7 +1932,7 @@ $font_color_preBlack: #959595;
                         
                         .mobile-online-control-video__head_text{
                             color: $font_color_white;
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 22px;
@@ -1937,7 +1958,7 @@ $font_color_preBlack: #959595;
                     li:nth-child(2) {
                         margin-top:20px;
                         color: $font_color_white;
-                        font-family: FuturaBookC;
+                        font-family: "FuturaBookC";
                         font-size: 14px;
                         line-height: 169.8%;
                         text-align: center;
@@ -1956,7 +1977,7 @@ $font_color_preBlack: #959595;
                         height: 50px;
                         color: $font_color_white;
                         background: $font_color_gold;
-                        font-family: FuturaDemiC;
+                        font-family: "FuturaDemiC";
                         font-size: 15px;
                         line-height: 26px;
                         text-align: center;
@@ -1974,7 +1995,7 @@ $font_color_preBlack: #959595;
                     justify-content: space-between;
 
                         .mobile-section-types_of_repair__text{
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 22px;
@@ -2037,7 +2058,7 @@ $font_color_preBlack: #959595;
                                     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
 
                                     h3{
-                                        font-family: Yeseva One;
+                                        font-family: "Yeseva One";
                                         font-style: normal;
                                         font-weight: normal;
                                         font-size: 15px;
@@ -2051,7 +2072,7 @@ $font_color_preBlack: #959595;
                                         align-items: flex-start;
                                         justify-content: flex-start;
                                         color: $font_color_preBlack;
-                                        font-family: FuturaBookC;
+                                        font-family: "FuturaBookC";
                                         font-size: 13px;
                                         line-height: 169.8%;
                                         list-style: inside;
@@ -2089,7 +2110,7 @@ $font_color_preBlack: #959595;
                 li:nth-child(1) {
 
                         h2{
-                            font-family: Yeseva One;
+                            font-family: "Yeseva One";
                             font-style: normal;
                             font-weight: normal;
                             font-size: 22px;
@@ -2143,8 +2164,354 @@ $font_color_preBlack: #959595;
 
             }
 
+            .mobile-section-design-project {
+                position: relative;
+                height: 1700px;
+                color:$font_color_white;
+                background: $bgcolor_black;
+
+
+                .mobile-section-design-project__text_head{
+                    
+                    li:first-child {
+                        font-family: "Yeseva One";
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 138.6%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                    }
+
+
+
+                        .mobile-section-design-project__text_head_logo{
+                            flex-direction: row;
+                            align-items: center;
+                            width: 114px;
+                            margin-bottom: 23px;
+
+                             li:nth-child(3){
+                                margin-bottom: 14px;
+                            }
+                                li:nth-child(1){
+                                margin-bottom: 14px;
+                            }
+                        }
+                    
+                }
+
+                .mobile-section-design-project__text_content {
+                    
+                    font-family: "FuturaBookC";
+                    font-size: 15px;
+                    line-height: 135.84%;
+                    text-align: center;
+                }
+
+                .mobile-mobile-section-design-project__colum1 {
+                    position: relative;
+                    height: 420px;;
+                    width: 340px;
+                    background:no-repeat url("./assets/images/mobile_version/main/design_project/image1.png");
+                    margin-top: 60px;
+                }
+
+                .mobile-mobile-section-design-project__colum2 {
+                    position: relative;
+                    height: 420px;
+                    width: 340px;
+                    background:no-repeat url("./assets/images/mobile_version/main/design_project/image2.png");
+                    margin-top: 60px;
+                }
+
+                .mobile-mobile-section-design-project__colum3 {
+                    position: relative;
+                    height: 420px;
+                    width: 340px;
+                    background:no-repeat url("./assets/images/mobile_version/main/design_project/image3.png");
+                    margin-top: 60px;
+                }
+
+                div{
+                    position: absolute;
+                    background:$bgcolor_white;
+                    width: 270px;
+                    height:177px;
+                    left: 0;
+                    top: 223px;
+                    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+
+                    .mobile-section-design-project__colum1-text{
+
+                        align-items: flex-start;
+                        justify-content: flex-start;
+
+                        h3{
+                            font-family: "Yeseva One";
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 138.6%;
+                            color: $font_color_black;
+                            padding-left: 31px;
+                            padding-top: 18px;
+                        }
+    
+                        ul{
+                            font-family: "FuturaBookC";
+                            font-size: 13px;
+                            line-height: 169.8%;
+                            color: $font_color_preBlack;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            list-style: inside;
+                            padding-left: 31px;
+                            padding-top: 13px;
+                        }
+    
+                    }
+                    }
+
+
+                .button{
+                    position: absolute;
+                    bottom:-20px;
+                    left:0;
+                    width: 190px;
+                    height: 40px;
+                    border: none;
+                    color: $font_color_white;
+                    background:$font_color_gold;
+                    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+                }
+            }
+
+            .mobile-section-our-team {
+
+                .mobile-section-our-team__text{
+                    color: $font_color_white;
+                    
+                    h3{
+                        font-family: "Yeseva One";
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 138.6%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                    }
+
+                    li:last-child {
+                        font-family: "FuturaBookC";
+                        font-size: 15px;
+                        line-height: 135.84%;
+                        text-align: center;
+                    }
+
+                    .mobile-section-our-team__text_logo{
+                        flex-direction: row;
+                        align-items: center;
+                        width: 114px;
+                        margin-bottom: 23px;
+
+                         li:nth-child(3){
+                            margin-bottom: 14px;
+                        }
+                            li:nth-child(1){
+                            margin-bottom: 14px;
+                        }
+                    }
+                }
+
+                .mobile-section-our-team__wrapper {
+                                        
+                        color: $font_color_white;
+    
+                            div {
+                                width: 339px;
+                                height: 450px;
+                                position: relative;
+                                color: $font_color_white;
+                                margin-top: 54px;
+                                
+                                .mobile-section-our-team__content-main-team {
+                                    
+                                    .mobile-section-our-team__content-main-team_icon {
+                                        position: absolute;
+                                        background:$font_color_gold;
+                                        padding: 11.75px 13px;
+                                        top: 0px;
+                                        left: 0px;
+                                        z-index: 10;
+
+                                    }
+
+                                    .mobile-section-our-team__content-main-team_main-photo {
+                                        position: absolute;
+                                        top: 35px;
+                                        right: 0;
+                                    }
+
+                                    
+    
+                                .mobile-section-our-team__content-main-team-inform {
+                                    position: absolute;
+                                    background:$bgcolor_white;
+                                    width: 235px;
+                                    height: 93px;
+                                    z-index: 15;
+                                    left: 65px;
+                                    top: 312px;
+    
+                                        .mobile-section-our-team__content-main-team-inform-content{
+                                            height: 93px;
+                                            justify-content: center;
+                                        }
+                                        
+                                        li:nth-child(1) {
+                                            font-family: "Yeseva One";
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 21px;
+                                            line-height: 25px;
+                                            text-align: center;
+                                            color: $bgcolor_black;
+                                            margin-bottom: 9px;
+                                        }
+    
+                                        li:nth-child(2) {
+                                            font-family: "FuturaBookC";
+                                            font-size: 18px;
+                                            line-height: 26px;
+                                            text-align: center;
+                                            color:$font_color_preBlack;
+                                        }
+    
+                                }
+    
+                                .mobile-section-our-team__content-main-team-inform-work-experience {
+                                    position: absolute;
+                                    width: 235px;
+                                    height: 44px;
+                                    background:$font_color_gold;
+                                    font-family: "Yeseva One";
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 13px;
+                                    line-height:  44px;
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                    z-index: 20;
+                                    left: 65px;
+                                    top: 405px;
+    
+                                }
+                                }
+    
+                            }
+                    }
+
+                
+            }
+
+            .mobile-section-question{
+                color: $font_color_white;
+                margin-top: 75px;
+
+                .mobile-section-question__content{
+
+                        .mobile-section-question__content-wrapper{
+                            
+                            .mobile-section-question__content-head {
+                                font-family: "Yeseva One";
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 20px;
+                                line-height: 28px;
+                                text-align: center;
+                                text-transform: uppercase;
+                            }
+
+                            .mobile-section-question__content-main {
+                                color: $font_color_preBlack;                               
+                                font-family: "FuturaBookC";
+                                font-size: 15px;
+                                line-height: 20px;
+                            }
+                        }
+
+
+                }
+            }
+
+            .mobile-section-map{
+                 margin: 50px 0;
+
+            }
+
 
         }
+
+        
+        footer {    
+            color: $font_color_gold;   
+
+
+                .mobile-footer__wrapper {
+                    height: 170px;  
+                    justify-content: space-around;
+                    align-items: center;
+                }
+
+
+                .mobile-footer__text {
+                    font-family: "Yeseva One";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 138.6%;
+                    text-align: center;
+                    text-transform: uppercase;
+
+                        li>a {
+                            color: $font_color_gold; 
+                            text-decoration:none ;
+                        }
+                }
+
+                .mobile-section-map-content-icon-area{
+                    width: 71px;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+
+                        .mobile-section-map-content-icon {
+                            width: 28px;
+                            height: 28px;
+                            background:$font_color_gold;
+                            border-radius: 50%;
+
+                            .instagram_icon{
+
+                                margin-top: 7px;
+                                margin-left: 7px;
+                            }
+
+                            .mail{
+
+                                margin-top: 7px;
+                                margin-left: 2px;
+                            }
+
+                            
+                        }
+                }
+
+        }
+
     }
 
 }

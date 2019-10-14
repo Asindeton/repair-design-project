@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url("./assets/fonts/Yeseva_One/YesevaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "FuturaDemiC";
+  src: url("./assets/fonts/FuturaDemiC_Regular/FuturaDemiC Regular.otf");
+}
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("./assets/fonts/FuturaBookC_Regular/FuturaBookC Regular.otf");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/Proxima_Nova/12093.ttf");
+}
 @media screen and (min-width: 1240px) {
   body {
-    background-color: #131313;
+    background: #252525;
   }
 
   .wrapper-mobile {
@@ -34,7 +50,7 @@
     color: #E3B873;
   }
   .wrapper_desktop .phone_number {
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 13px;
     line-height: 15px;
     text-align: center;
@@ -52,7 +68,7 @@
     height: 83px;
   }
   .wrapper_desktop li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
@@ -73,7 +89,7 @@
     background: #131313;
     height: 707px;
     width: 6%;
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 14px;
     line-height: 707px;
     text-align: center;
@@ -88,7 +104,7 @@
     top: 500px;
   }
   .wrapper_desktop .header_test h2 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -96,7 +112,7 @@
     text-transform: uppercase;
   }
   .wrapper_desktop .header_test .content {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 22px;
     line-height: 30px;
   }
@@ -121,7 +137,7 @@
     position: absolute;
     top: 741px;
     justify-content: space-evenly;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -146,7 +162,7 @@
     align-items: flex-start;
   }
   .wrapper_desktop .main .main-examples__content h2 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 27px;
@@ -156,7 +172,7 @@
     color: #E3B873;
   }
   .wrapper_desktop .main .main-examples__content .main-examples__content-description {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
@@ -197,14 +213,14 @@
     background-color: #fff;
   }
   .wrapper_desktop .video-box .video-box__description-text li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 20px;
     line-height: 34px;
     text-align: center;
     color: #363636;
   }
   .wrapper_desktop .video-box label {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 16px;
     line-height: 22px;
   }
@@ -264,14 +280,14 @@
     left: 31px;
   }
   .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li div h3 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
   }
   .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li div li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 25px;
     color: #959595;
@@ -280,7 +296,7 @@
     color: #fff;
     background-color: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -348,7 +364,7 @@
   }
   .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_image ul li {
     color: #E3B873;
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 20px;
     line-height: 25px;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
@@ -370,7 +386,7 @@
     height: 864px;
   }
   .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-head {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 27px;
@@ -384,7 +400,7 @@
     justify-content: space-between;
   }
   .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main li {
-    font-family: Proxima Nova;
+    font-family: "Proxima Nova";
     font-size: 20px;
     line-height: 34px;
   }
@@ -419,7 +435,7 @@
     flex-direction: column;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_header li {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -432,7 +448,7 @@
     height: 57px;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_text p {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 20px;
     line-height: 27px;
     text-align: center;
@@ -465,7 +481,7 @@
     left: 31px;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text h3 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -478,7 +494,7 @@
     list-style: inside;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 25px;
     color: #959595;
@@ -487,7 +503,7 @@
     color: #fff;
     background-color: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -526,7 +542,7 @@
     left: 31px;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text h3 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -539,7 +555,7 @@
     list-style: inside;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 25px;
     color: #959595;
@@ -548,7 +564,7 @@
     color: #fff;
     background-color: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -587,7 +603,7 @@
     left: 31px;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text h3 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -600,7 +616,7 @@
     list-style: inside;
   }
   .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 25px;
     color: #959595;
@@ -609,7 +625,7 @@
     color: #fff;
     background-color: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -646,7 +662,7 @@
     height: 1615px;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main .section-steps-to-the-goal__colone1_main_head li {
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 15px;
     line-height: 21px;
     text-transform: uppercase;
@@ -657,7 +673,7 @@
     width: 302px;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main .section-steps-to-the-goal__colone1_main_head .section-steps-to-the-goal__colone1_main_head2 li {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 27px;
@@ -673,7 +689,7 @@
     margin: 92px 0 61px 0;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -682,7 +698,7 @@
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text li:nth-child(2) {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -690,7 +706,7 @@
     text-transform: uppercase;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text li:nth-child(3) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 25px;
   }
@@ -757,7 +773,7 @@
     opacity: 1;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem1 ul li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -766,7 +782,7 @@
     border-bottom: 1px solid #E3B873;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem1 ul li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 18px;
   }
@@ -779,7 +795,7 @@
     opacity: 1;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem2 ul li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -788,7 +804,7 @@
     border-bottom: 1px solid #E3B873;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem2 ul li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 18px;
   }
@@ -805,7 +821,7 @@
     opacity: 1;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem1 ul li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -814,7 +830,7 @@
     border-bottom: 1px solid #E3B873;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem1 ul li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 18px;
   }
@@ -827,7 +843,7 @@
     opacity: 1;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem2 ul li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -836,7 +852,7 @@
     border-bottom: 1px solid #E3B873;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem2 ul li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 18px;
   }
@@ -853,7 +869,7 @@
     opacity: 1;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem1 ul li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -862,7 +878,7 @@
     border-bottom: 1px solid #E3B873;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem1 ul li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 18px;
   }
@@ -875,7 +891,7 @@
     opacity: 1;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem2 ul li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -884,7 +900,7 @@
     border-bottom: 1px solid #E3B873;
   }
   .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem2 ul li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 18px;
   }
@@ -918,7 +934,7 @@
     height: 148px;
   }
   .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-head li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -927,7 +943,7 @@
     text-transform: uppercase;
   }
   .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-head li:nth-child(3) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 20px;
     line-height: 27px;
     text-align: center;
@@ -974,7 +990,7 @@
     justify-content: center;
   }
   .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 21px;
@@ -984,7 +1000,7 @@
     margin-bottom: 9px;
   }
   .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 18px;
     line-height: 26px;
     text-align: center;
@@ -995,7 +1011,7 @@
     width: 235px;
     height: 44px;
     background: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -1015,7 +1031,7 @@
   }
   .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-description li:nth-child(2) {
     color: #131313;
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 20px;
     line-height: 34px;
     text-align: center;
@@ -1032,7 +1048,7 @@
     height: 148px;
   }
   .wrapper_desktop .section-our-clients .section-our-clients__head li:nth-child(1) {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -1042,7 +1058,7 @@
     color: #363636;
   }
   .wrapper_desktop .section-our-clients .section-our-clients__head li:nth-child(3) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 20px;
     line-height: 27px;
     text-align: center;
@@ -1080,7 +1096,7 @@
     position: absolute;
     top: 41px;
     left: 120px;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1090,7 +1106,7 @@
     position: absolute;
     top: 120px;
     left: 20px;
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 180%;
     color: #959595;
@@ -1111,7 +1127,7 @@
     border-right: 1px solid #fff;
   }
   .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description .section-our-clients__content-column-description-area li + li {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -1125,7 +1141,7 @@
     height: 54px;
   }
   .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description .section-our-clients__content-column-description-days li + li {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -1155,7 +1171,7 @@
   }
   .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-head {
     color: #FFFFFF;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -1190,7 +1206,7 @@
   }
   .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content .section-map-content-location {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -1226,7 +1242,7 @@
     align-items: center;
   }
   .wrapper_desktop footer .footer-content .footer-content__logo {
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
@@ -1237,7 +1253,7 @@
     justify-content: space-between;
   }
   .wrapper_desktop footer .footer-content .footer-content__nav li {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 16px;
   }
@@ -1245,7 +1261,7 @@
     color: #E3B873;
   }
   .wrapper_desktop footer .footer-content .footer-content__phone {
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 14px;
     line-height: 16px;
     text-align: right;
@@ -1257,7 +1273,7 @@
     height: 37px;
     background: #E3B873;
     color: #FFFFFF;
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 13px;
     line-height: 15px;
     text-align: center;
@@ -1270,7 +1286,7 @@
 }
 @media screen and (max-width: 1240px) {
   body {
-    background: #131313;
+    background: #252525;
   }
 
   .wrapper_desktop {
@@ -1281,6 +1297,7 @@
     width: 100%;
     margin: 0 auto;
     max-width: 375px;
+    background: #131313;
   }
   .wrapper-mobile ul {
     display: flex;
@@ -1300,14 +1317,14 @@
     height: 57px;
   }
   .wrapper-mobile header .mobile-nav h1 {
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
     color: #E3B873;
   }
   .wrapper-mobile header .mobile-nav .tel-numb__header {
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 12px;
     line-height: 14px;
     text-align: right;
@@ -1327,7 +1344,7 @@
   }
   .wrapper-mobile header .mobile-header h2 {
     color: #FFFFFF;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
@@ -1340,7 +1357,7 @@
   }
   .wrapper-mobile header .mobile-header .mobile-header__text {
     color: #FFFFFF;
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 18px;
     line-height: 135.84%;
   }
@@ -1349,7 +1366,7 @@
   }
   .wrapper-mobile header .mobile-header form {
     border: none;
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 13px;
     line-height: 15px;
     text-align: center;
@@ -1382,7 +1399,7 @@
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__text h2 {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -1393,7 +1410,7 @@
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__text li:nth-child(2) {
     color: #FFFFFF;
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 158.48%;
     text-align: center;
@@ -1444,7 +1461,7 @@
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row1 li:nth-child(1) {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1452,7 +1469,7 @@
     text-transform: uppercase;
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row1 li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 135.84%;
   }
@@ -1461,7 +1478,7 @@
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row2 li:nth-child(1) {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1469,7 +1486,7 @@
     text-transform: uppercase;
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row2 li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 135.84%;
   }
@@ -1484,7 +1501,7 @@
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row1 li:nth-child(1) {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1492,7 +1509,7 @@
     text-transform: uppercase;
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row1 li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 135.84%;
   }
@@ -1501,7 +1518,7 @@
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row2 li:nth-child(1) {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1509,7 +1526,7 @@
     text-transform: uppercase;
   }
   .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row2 li:nth-child(2) {
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 135.84%;
   }
@@ -1522,7 +1539,7 @@
   }
   .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__head .mobile-online-control-video__head_text {
     color: #FFFFFF;
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -1543,7 +1560,7 @@
   .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__text li:nth-child(2) {
     margin-top: 20px;
     color: #FFFFFF;
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 14px;
     line-height: 169.8%;
     text-align: center;
@@ -1559,7 +1576,7 @@
     height: 50px;
     color: #FFFFFF;
     background: #E3B873;
-    font-family: FuturaDemiC;
+    font-family: "FuturaDemiC";
     font-size: 15px;
     line-height: 26px;
     text-align: center;
@@ -1574,7 +1591,7 @@
     justify-content: space-between;
   }
   .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__text {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -1627,7 +1644,7 @@
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
   }
   .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves div h3 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -1640,7 +1657,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     color: #959595;
-    font-family: FuturaBookC;
+    font-family: "FuturaBookC";
     font-size: 13px;
     line-height: 169.8%;
     list-style: inside;
@@ -1667,7 +1684,7 @@
     justify-content: space-around;
   }
   .wrapper-mobile main .mobile-section-realize_your_fantasies li:nth-child(1) h2 {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -1709,6 +1726,269 @@
     left: 15px;
     top: 11px;
     position: absolute;
+  }
+  .wrapper-mobile main .mobile-section-design-project {
+    position: relative;
+    height: 1700px;
+    color: #FFFFFF;
+    background: #131313;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head li:first-child {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head .mobile-section-design-project__text_head_logo {
+    flex-direction: row;
+    align-items: center;
+    width: 114px;
+    margin-bottom: 23px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head .mobile-section-design-project__text_head_logo li:nth-child(3) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head .mobile-section-design-project__text_head_logo li:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_content {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 135.84%;
+    text-align: center;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-mobile-section-design-project__colum1 {
+    position: relative;
+    height: 420px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/design_project/image1.png");
+    margin-top: 60px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-mobile-section-design-project__colum2 {
+    position: relative;
+    height: 420px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/design_project/image2.png");
+    margin-top: 60px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-mobile-section-design-project__colum3 {
+    position: relative;
+    height: 420px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/design_project/image3.png");
+    margin-top: 60px;
+  }
+  .wrapper-mobile main .mobile-section-design-project div {
+    position: absolute;
+    background: #fff;
+    width: 270px;
+    height: 177px;
+    left: 0;
+    top: 223px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  .wrapper-mobile main .mobile-section-design-project div .mobile-section-design-project__colum1-text {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .wrapper-mobile main .mobile-section-design-project div .mobile-section-design-project__colum1-text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 138.6%;
+    color: #363636;
+    padding-left: 31px;
+    padding-top: 18px;
+  }
+  .wrapper-mobile main .mobile-section-design-project div .mobile-section-design-project__colum1-text ul {
+    font-family: "FuturaBookC";
+    font-size: 13px;
+    line-height: 169.8%;
+    color: #959595;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: inside;
+    padding-left: 31px;
+    padding-top: 13px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .button {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text {
+    color: #FFFFFF;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text li:last-child {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 135.84%;
+    text-align: center;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text .mobile-section-our-team__text_logo {
+    flex-direction: row;
+    align-items: center;
+    width: 114px;
+    margin-bottom: 23px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text .mobile-section-our-team__text_logo li:nth-child(3) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text .mobile-section-our-team__text_logo li:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper {
+    color: #FFFFFF;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div {
+    width: 339px;
+    height: 450px;
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 54px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team_icon {
+    position: absolute;
+    background: #E3B873;
+    padding: 11.75px 13px;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team_main-photo {
+    position: absolute;
+    top: 35px;
+    right: 0;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform {
+    position: absolute;
+    background: #fff;
+    width: 235px;
+    height: 93px;
+    z-index: 15;
+    left: 65px;
+    top: 312px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform .mobile-section-our-team__content-main-team-inform-content {
+    height: 93px;
+    justify-content: center;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 9px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #959595;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform-work-experience {
+    position: absolute;
+    width: 235px;
+    height: 44px;
+    background: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 20;
+    left: 65px;
+    top: 405px;
+  }
+  .wrapper-mobile main .mobile-section-question {
+    color: #FFFFFF;
+    margin-top: 75px;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-head {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main {
+    color: #959595;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .wrapper-mobile main .mobile-section-map {
+    margin: 50px 0;
+  }
+  .wrapper-mobile footer {
+    color: #E3B873;
+  }
+  .wrapper-mobile footer .mobile-footer__wrapper {
+    height: 170px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wrapper-mobile footer .mobile-footer__text {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile footer .mobile-footer__text li > a {
+    color: #E3B873;
+    text-decoration: none;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area {
+    width: 71px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area .mobile-section-map-content-icon {
+    width: 28px;
+    height: 28px;
+    background: #E3B873;
+    border-radius: 50%;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area .mobile-section-map-content-icon .instagram_icon {
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area .mobile-section-map-content-icon .mail {
+    margin-top: 7px;
+    margin-left: 2px;
   }
 }
 
