@@ -87,10 +87,21 @@
                     </li>
                   </ul>
                 </li>
+                <li>
+                    <ul class="main-examples__content_slider">
+                      <li><img src="./assets/images/Desktop_version/steps_to_the_goal/slider/Group.svg" alt=""></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li><img src="./assets/images/Desktop_version/steps_to_the_goal/slider/Group2.svg" alt=""></li>
+                    </ul>
+                  </li>
               </ul>
             </li>
             <li class="main-examples__slider">
-              <!--<img src="./assets/images/Desktop_version/main/image 2.1.png" alt="">-->
+              <ul>
+                <li><img src="./assets/images/mobile_version/main/complied-projects/Vector (Stroke_Rifht).svg" alt=""></li>
+              </ul>
             </li>
           </ul>
         </li>
@@ -715,7 +726,7 @@
                     </li>
                 </ul>
               </li>
-              <li>
+              <li  class="section-question__content-main-personal-data-question">
                   <form name="questions" method="post" action="input1.php">
                       <label for="question__name">Questions<br></label>
                         <input type="text" size="40" id="question__name" class="text-area" placeholder="I want to know:" required>
@@ -725,8 +736,8 @@
           </li>
           <li class="section-question__content-agree">
               <form>
-                  <input type="checkbox" id="processing" class="processing" value="submit" checked="">
-                  <label for="processing">I agree to the processing of personal data</label>
+                  <input type="checkbox" id="question__processing" class="question__processing" value="submit" checked="">
+                  <label for="question__processing">I agree to the processing of personal data</label>
                 </form>
           </li>
           <li class="section-question__content-submit">
@@ -895,24 +906,22 @@
           </li>
           <li>
             <ul class="mobile-online-control-video__form">
-                <li>
-                    <form name="test" method="post" action="input1.php">
-                      <p><b>name</b><br>
-                          <input type="text" size="40">
-                      </p>
-                    </form>
-                 </li>
-                 <li>
-                    <form name="test" method="post" action="input1.php">
-                      <p><b>number</b><br>
-                          <input type="text" size="40">
-                      </p>
-                    </form>
-                 </li>
+              <li>
+                <form name="phone" method="post" action="input1.php">
+                    <label for="mobile_request__name" class="text-area">Name<br></label>
+                      <input type="text" size="40" id="mobile_request__name" class="text-area" placeholder="What is your name:" required>
+                  </form>
+            </li>
+            <li>
+              <form name="phone" method="post" action="input1.php">
+                  <label for="mobile_request__phone" class="text-area">Phone<br></label>
+                    <input type="tel" size="40" id="mobile_request__phone" class="text-area" placeholder="Your phone number:" required>
+                </form>
+          </li>
                  <li class="mobile-section-question__content-agree">
                     <form>
-                        <input type="checkbox" id="processing" class="processing" value="submit" checked="">
-                        <label for="processing">I agree to the processing of personal data</label>
+                        <input type="checkbox" id="mobile_processing" class="processing" value="submit" checked="">
+                        <label for="mobile_processing">I agree to the processing of personal data</label>
                       </form>
                 </li>
               <li>
@@ -1180,34 +1189,30 @@
                   <li>
                     <ul class="mobile-section-question__content-main-personal-data">
                       <li>
-                         <form name="test" method="post" action="input1.php">
-                           <p><b>name</b><br>
-                               <input type="text" size="40">
-                           </p>
-                         </form>
-                      </li>
+                        <form name="phone" method="post" action="input1.php">
+                            <label for="mobile-section-question__name" class="text-area">Name<br></label>
+                              <input type="text" size="40" id="mobile_request__name" class="text-area" placeholder="What is your name:" required>
+                          </form>
+                    </li>
                       <li>
-                          <form name="test" method="post" action="input1.php">
-                              <p><b>phone</b><br>
-                                <input type="text" size="40">
-                              </p>
-                            </form>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="mobile-section-question__content-main-question">
-                      <form name="test" method="post" action="input1.php">
-                          <p><b>questions</b><br>
-                            <input type="text" size="40">
-                          </p>
+                        <form name="phone" method="post" action="input1.php">
+                            <label for="mobile-section-question__phone" class="text-area">Phone<br></label>
+                              <input type="tel" size="40" id="mobile-section-question__phone" class="text-area" placeholder="Your phone number:" required>
+                          </form>
+                    </li>
+                    
+                    <li>
+                      <form name="phone" method="post" action="input1.php">
+                          <label for="mobile-section-question__questions" class="text-area">Questions<br></label>
+                            <input type="tel" size="40" id="mobile-section-question__questions" class="text-area" placeholder="I want to know:" required>
                         </form>
                   </li>
                 </ul>
               </li>
               <li class="mobile-section-question__content-agree">
                   <form>
-                      <input type="checkbox" id="processing" class="processing" value="submit" checked="">
-                      <label for="processing">I agree to the processing of personal data</label>
+                      <input type="checkbox" id="mobile-section-question__processing" class="processing" value="submit" checked="">
+                      <label for="mobile-section-question__processing">I agree to the processing of personal data</label>
                     </form>
               </li>
               <li class="section-question__content-submit">

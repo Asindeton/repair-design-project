@@ -256,6 +256,8 @@ $font_color_preBlack: #959595;
             flex-direction: column;
             justify-content: center;
 
+
+
                 >li {
                     margin:10px auto;
                 }
@@ -265,7 +267,7 @@ $font_color_preBlack: #959595;
                 }
 
                 .main-examples__nav {
-                    margin-left: 440px;
+                    margin-left: 510px;
                     width: 623px;
                     justify-content: space-between;
 
@@ -300,7 +302,38 @@ $font_color_preBlack: #959595;
             flex-direction: column;
             height: 482px;
             align-items: flex-start;
-            
+
+            .main-examples__content_slider{
+                  flex-direction: row;
+                  width: 205px;
+                  justify-content: space-between;
+                  align-items: center;
+                   
+                    li:nth-child(2),
+                    li:nth-child(3),
+                    li:nth-child(4){
+                    
+                       width: 10px;
+                       height: 10px;
+                       background: rgba(255, 255, 255, 0.3);
+                       border-radius: 30px;
+                     
+                            &:hover{
+                                background: $bgcolor_white;
+                            }
+                    }
+
+                    li:nth-child(1),  li:nth-child(8){
+                        width: 41px;
+                        
+
+                        img{
+                            margin-top: 5px;
+                        }
+                    }
+
+                
+            }
                 h2 {
                     
                     font-family: "Yeseva One";
@@ -361,13 +394,32 @@ $font_color_preBlack: #959595;
         
         
         .main .main-examples__slider {
+            position: relative;
             width: 679px;
             height: 479px;
             background: url('./assets/images/Desktop_version/main/image\ 2.1.png');
+
             
-                &:hover {
+                &:active {
                     background: url("./assets/images/Desktop_version/main/image\ 2.png");
+;
                 }
+
+                >ul>li:first-child{
+                    position: absolute;
+                    top: 214px;
+                    right: 20px;
+                    width: 55px;
+                    height: 55px;
+                    background: $font_color_gold;
+                    border-radius: 50%;
+
+                        img{
+                            margin-top: 20px;
+                            margin-left: 26px;
+                        }
+                }
+
         }
         
         
@@ -617,11 +669,6 @@ $font_color_preBlack: #959595;
 
                                 li:nth-child(1){
                                     margin-top: 61px;
-
-                                        >span{
-                                            
-                                        }
-
                                 }
                                 li:nth-child(2) {
                                     margin-top: 80px;
@@ -1758,6 +1805,22 @@ $font_color_preBlack: #959595;
                         height: 455px;
                         width: 100%;
                         flex-direction: column;
+
+                    .section-question__content-submit{
+                        .button {
+                            width: 200px;
+                            height: 51px;
+                            color: $font_color_white;
+                            background: $font_color_gold;
+                            border: none;
+                            font-family: 'FuturaDemiC';
+                            font-size: 15px;
+                            line-height: 26px;
+                            text-align: center;
+                            text-transform: uppercase;
+                    }
+                    }
+
         
                         .section-question__content-head{
                             color:$font_color_white;
@@ -1772,7 +1835,7 @@ $font_color_preBlack: #959595;
         
                         .section-question__content-main {
                             flex-direction: column;
-                            margin-left: 180px;
+
 
                                 >li{
                                     width: 100%;  
@@ -1788,15 +1851,14 @@ $font_color_preBlack: #959595;
                                     color: $font_color_white;
                                     opacity: .5;
                                 }
-
-                                
+   
                             }
         
                             .section-question__content-main-personal-data {
                                 flex-direction: row;
                                 align-items: flex-start;
                                 justify-content: space-between;
-                                width: 584px;
+                                width: 520px;
 
                                     input{
                                         border: none;
@@ -1806,44 +1868,34 @@ $font_color_preBlack: #959595;
                                         font-family: 'FuturaBookC';
                                         font-size: 18px;
                                         line-height: 24px;
-                                        width: 200px;
+                                        width: 230px;
                                     }
-
-                                
-                                        /*li>form{
-                            text-align: start;
-
-                                label{
-                                    font-family: 'FuturaBookC';
-                                    font-size: 15px;
-                                    line-height: 20px;
-                                    color: $font_color_black;
-                                    opacity: .5;
-                                }
-                            
-                                input{
-                                    border: none;
-                                    border-bottom:1px solid rgba(54, 54, 54, 0.3);
-                                    margin-right: 55px;
-                                    color: $font_color_black;                         
-                                    font-family: 'FuturaBookC';
-                                    font-size: 18px;
-                                    line-height: 24px;
-                                }
-                                
-                                .button {
-                                    width: 200px;
-                                    height: 51px;
-                                    color: $font_color_white;
-                                    background: $font_color_gold;
-                                    border: none;
-                                }
-
-                                .processing {
-                                    background: $font_color_gold;
-                                }*/
-                                    
                             }
+
+                            .section-question__content-main-personal-data-question{
+                                    form{
+                                        margin-top:50px
+                                    }
+                                    input.text-area{
+
+                                        border: none;
+                                        border-bottom:1px solid rgba(255, 255, 255, 0.15);
+                                        background: transparent;
+                                        color: $font_color_white;                         
+                                        font-family: 'FuturaBookC';
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        width: 100%;
+                                    }
+                            }
+
+                            .section-question__content-agree {
+                                    font-family: 'FuturaBookC';
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    
+                                    
+                            }                              
                         }
         
                         
@@ -2090,6 +2142,7 @@ $font_color_preBlack: #959595;
                             background:$font_color_gold;
                             color: $font_color_white;
                             border: none;
+                            font-family: "FuturaDemiC";
         
                         }
                         
@@ -2099,6 +2152,7 @@ $font_color_preBlack: #959595;
                             border: 1px solid $bgcolor_white;
                             color: $font_color_white;
                             background: transparent;
+                            font-family: "FuturaDemiC";
                         }
 
                 }
@@ -2337,6 +2391,24 @@ $font_color_preBlack: #959595;
                     height: 311px;
                     justify-content: space-between;
                     color: $font_color_white;
+
+                    input.text-area{
+                        border: none;
+                        border-bottom:1px solid $font_color_white;
+                        background: transparent;
+                        color: $font_color_white;                         
+                        font-family: 'FuturaBookC';
+                        font-size: 18px;
+                        line-height: 25px;
+                        width: 340px;
+                    }
+                    
+                    label.text-area{
+                        font-family: 'FuturaBookC';
+                        font-size: 15px;
+                        line-height: 20px;
+                        color: rgba(255, 255, 255, 0.5);
+                    }
     
     
                     .button__SUBMIT{
@@ -2348,7 +2420,8 @@ $font_color_preBlack: #959595;
                         font-size: 15px;
                         line-height: 26px;
                         text-align: center;
-                        text-transform: uppercase
+                        text-transform: uppercase;
+                        border: 0px;
                     }
                 }
             }
@@ -2807,6 +2880,47 @@ $font_color_preBlack: #959595;
                                 font-family: "FuturaBookC";
                                 font-size: 15px;
                                 line-height: 20px;
+
+                                .mobile-section-question__content-main-personal-data{
+                                    li{
+                                        margin: 20px auto;
+                                    }
+                                    label{
+                                        font-family: 'FuturaBookC';
+                                        font-size: 15px;
+                                        line-height: 20px;
+                                        color: rgba(255, 255, 255, 0.5);
+                                    }
+                                    input.text-area{
+                                        border: none;
+                                        border-bottom:1px solid $font_color_white;
+                                        background: transparent;
+                                        color: $font_color_white;                         
+                                        font-family: 'FuturaBookC';
+                                        font-size: 18px;
+                                        line-height: 25px;
+                                        width: 340px;
+                                    }
+                                }
+
+                                .mobile-section-question__content-agree{
+                                    margin-left: -85px;
+                                    margin-bottom: 50px;
+                                }
+                            }
+
+                            .button{                                
+                                width: 340px;
+                                height: 50px;
+                                color: $font_color_white;
+                                background: $font_color_gold;
+                                font-family: "FuturaDemiC";
+                                font-size: 15px;
+                                line-height: 26px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                border: 0px;
+                                
                             }
                         }
 
