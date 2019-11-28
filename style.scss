@@ -281,6 +281,7 @@ $font_color_preBlack: #959595;
                         text-transform: uppercase;
                         color: rgba(255, 255, 255, 0.3);
                         opacity: .3;
+                        border-bottom: 1px solid transparent;
 
 
                             &:hover{
@@ -473,7 +474,7 @@ $font_color_preBlack: #959595;
                                     font-size: 15px;
                                     line-height: 20px;
                                     color: $font_color_black;
-                                    opacity: .5;
+                                    
                                 }
                             
                                 input{
@@ -492,6 +493,7 @@ $font_color_preBlack: #959595;
                                     color: $font_color_white;
                                     background: $font_color_gold;
                                     border: none;
+                                    text-transform: uppercase;
                                 }
 
                                 .processing {
@@ -840,6 +842,7 @@ $font_color_preBlack: #959595;
                                 font-family:"Proxima Nova";
                                 font-size: 20px;
                                 line-height: 34px;
+                                border-bottom: 0.67px solid transparent;
                                 
                                 &:hover{
                                     color:$font_color_gold;
@@ -1849,7 +1852,7 @@ $font_color_preBlack: #959595;
                                     font-size: 15px;
                                     line-height: 20px;
                                     color: $font_color_white;
-                                    opacity: .5;
+
                                 }
    
                             }
@@ -2407,7 +2410,7 @@ $font_color_preBlack: #959595;
                         font-family: 'FuturaBookC';
                         font-size: 15px;
                         line-height: 20px;
-                        color: rgba(255, 255, 255, 0.5);
+                       /*  color: rgba(255, 255, 255, 0.5); */
                     }
     
     
@@ -2889,7 +2892,7 @@ $font_color_preBlack: #959595;
                                         font-family: 'FuturaBookC';
                                         font-size: 15px;
                                         line-height: 20px;
-                                        color: rgba(255, 255, 255, 0.5);
+                                        color: rgb(255, 255, 255);
                                     }
                                     input.text-area{
                                         border: none;
