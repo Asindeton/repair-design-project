@@ -235,6 +235,7 @@
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     opacity: 0.3;
+    border-bottom: 1px solid transparent;
   }
   .wrapper_desktop .main .main-examples .main-examples__nav li:hover {
     opacity: 1;
@@ -386,7 +387,6 @@
     font-size: 15px;
     line-height: 20px;
     color: #363636;
-    opacity: 0.5;
   }
   .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form input {
     border: none;
@@ -403,6 +403,7 @@
     color: #FFFFFF;
     background: #E3B873;
     border: none;
+    text-transform: uppercase;
   }
   .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form .processing {
     background: #E3B873;
@@ -680,6 +681,7 @@
     font-family: "Proxima Nova";
     font-size: 20px;
     line-height: 34px;
+    border-bottom: 0.67px solid transparent;
   }
   .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main li:hover {
     color: #E3B873;
@@ -1488,7 +1490,6 @@
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
-    opacity: 0.5;
   }
   .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main .section-question__content-main-personal-data {
     flex-direction: row;
@@ -1926,7 +1927,7 @@
     font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    /*  color: rgba(255, 255, 255, 0.5); */
   }
   .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__form .button__SUBMIT {
     width: 340px;
@@ -2311,7 +2312,7 @@
     font-family: "FuturaBookC";
     font-size: 15px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main .mobile-section-question__content-main-personal-data input.text-area {
     border: none;
